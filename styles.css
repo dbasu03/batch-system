@@ -517,3 +517,61 @@ footer {
         flex: 1; /* Equal width for footer sections */
     }
 }
+
+
+    /* Default display for images */
+    .additional-image, .home-image {
+        display: block;
+    }
+
+    /* Media query for mobile devices (width 768px and below) */
+    @media (max-width: 768px) {
+        .additional-image, .home-image {
+            display: none;
+        }
+    }
+
+    .feature-image {
+        display: block;
+    }
+
+    .feature-details p {
+        display: block;
+    }
+
+    /* Media query for mobile devices (width 768px and below) */
+    @media (max-width: 768px) {
+        .feature-image {
+            display: none;
+        }
+
+        .feature-details p {
+            display: none;
+        }
+    }
+
+    
+    .pricing-image {
+        display: block;
+    }
+
+    /* Media query for mobile devices (width 768px and below) */
+    @media (max-width: 768px) {
+        .pricing-image {
+            display: none;
+        }
+    }
+
+    .testimonial-image {
+        display: block;
+    }
+
+    /* Media query for mobile devices (width 768px and below) */
+    @media (max-width: 768px) {
+        .testimonial-image {
+            display: none;
+        }
+    }
+
+
+    
