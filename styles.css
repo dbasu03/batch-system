@@ -573,5 +573,25 @@ footer {
         }
     }
 
+/* Media query for mobile devices (width 768px and below) */
+@media (max-width: 768px) {
+    .download {
+        display: none; /* Hides the "Download" option */
+    }
+}
+
+/* Example CSS for the download button */
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; /* Example background color */
+    color: #fff; /* Example text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3; /* Example background color on hover */
+}
 
     
